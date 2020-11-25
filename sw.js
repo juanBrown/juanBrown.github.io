@@ -1,6 +1,6 @@
 var cacheName = 'ginko_cache';
 
-var appShellFiles = [
+var contentToCache = [
     'icons/icon-32.png',
     'icons/icon-64.png',
     'icons/icon-96.png',
@@ -14,8 +14,6 @@ var appShellFiles = [
     'index.html',
     'app.js'
 ];
-
-var contentToCache = appShellFiles;
 
 self.addEventListener('install', (e) => {
     console.log('[Service Worker] Install');
