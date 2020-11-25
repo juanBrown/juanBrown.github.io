@@ -60,6 +60,6 @@
   "display": "fullscreen",
   "orientantion": "portrait ",
   "theme_color": "#000000",
-  "scope": "./",
+  "scope": "./"
 
 }
