@@ -59,6 +59,7 @@
   "background_color": "#000000",
   "display": "fullscreen",
   "orientantion": "portrait ",
-  "theme_color": "#000000"
+  "theme_color": "#000000",
+  "scope": "./",
 
 }
