@@ -1,7 +1,21 @@
-self.addEventListener('install', (e) => {
-    console.log('[Service Worker] Install');
-});
+var cacheName = 'ginko_cache';
 
+var appShellFiles = [
+    'icons/icon-32.png',
+    'icons/icon-64.png',
+    'icons/icon-96.png',
+    'icons/icon-128.png',
+    'icons/icon-192.png',
+    'icons/icon-192.png',
+    'icons/icon-192.png',
+    'icons/icon-256.png',
+    'icons/icon-512.png',
+    'icons/maskable_icon.png',
+    'index.html',
+    'app.js'
+];
+
+var contentToCache = appShellFiles;
 
 self.addEventListener('install', (e) => {
     console.log('[Service Worker] Install');
